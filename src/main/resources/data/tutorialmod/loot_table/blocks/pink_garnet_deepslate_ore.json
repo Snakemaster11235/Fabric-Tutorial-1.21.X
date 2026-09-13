@@ -26,11 +26,20 @@
                   }
                 }
               ],
-              "name": "tutorialmod:pink_garnet_ore"
+              "name": "tutorialmod:pink_garnet_deepslate_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 2.0
+                  },
+                  "function": "minecraft:set_count"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
